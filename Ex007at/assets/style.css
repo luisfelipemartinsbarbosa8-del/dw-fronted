@@ -1,0 +1,74 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#5008f7;
+color:white;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:30px;
+background:#0099ff;
+border-bottom:2px solid #333;
+}
+
+header h1{
+font-size:32px;
+}
+
+/* MAIN */
+
+main{
+padding:40px;
+}
+
+/* GALERIA */
+
+.galeria-musicas{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+gap:30px;
+}
+
+/* CARD DO VIDEO */
+
+.video-card{
+background:#f39200;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+transition:0.3s;
+}
+
+.video-card:hover{
+transform:scale(1.05);
+}
+
+.video-card video{
+width:100%;
+border-radius:8px;
+}
+
+.video-card p{
+margin-top:10px;
+font-size:14px;
+color:#ffffffc4;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#1f1f1f;
+color:#aaa;
+}
