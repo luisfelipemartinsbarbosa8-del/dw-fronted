@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #00d3f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.receita{
+    max-width: 600px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.imagem img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+ul, ol{
+    padding-left: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}

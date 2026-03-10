@@ -1,0 +1,18 @@
+a  {
+    text-decoration: none;
+background-color: dodgerblue;
+color: white;
+display: inline-block;
+padding: 5px;
+width: 100px;
+text-align: center;
+border-radius:5px;
+
+}
+
+a:hover {
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+outline: 1px solid dodgerblue;
+}
