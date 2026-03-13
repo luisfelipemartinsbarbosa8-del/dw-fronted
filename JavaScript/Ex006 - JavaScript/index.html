@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+
+    <h1>Contador de cliques</h1>
+
+    <button id="contador-click">Clique em mim</button>
+    <button id="zerar-contador">Zerar contador</button>
+
+    <p id="resultado">Número de cliques: 0</p>
+
+    <script>
+        let contador = 0;
+
+        const botao = document.getElementById('contador-click');
+        const botaoZerar = document.getElementById('zerar-contador');
+        const resultado = document.getElementById('resultado');
+
+        botao.addEventListener('click', () => {
+            contador++;
+            resultado.textContent = `Número de cliques: ${contador}`;
+        });
+
+        botaoZerar.addEventListener('click', () => {
+            contador = 0;
+            resultado.textContent = `Número de cliques: ${contador}`;
+        });
+    </script>
+
+</body>
+</html>
